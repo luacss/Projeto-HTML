@@ -8,48 +8,57 @@
     
     <body>
         <main>
-    <H1> CURA CALVO </H1>
-    <H2> A solução para calvice </H2> 
+    <H1 class="titulo"> ELAC </H1>
+    <H2 class="subtitulo"> A solução para calvice </H2> 
     <img src="Unidade2_500x_29b594b8-0c84-42dc-bb02-d6e1f7cdc942_1024x.jpg">
-    <p> O Power Hair é o produto que revolucionou o mercado CONTINUA...</p>
+    <p> O Power Hair o produto que revolucionou o mercado capilar...</p>
 
     <p><b>Power Hair - R $125,20</b></p>
     <p> Aproveite o desconto de 30% na primeira compra</p>
         <form>
+         <div class="campo">
             <label for="quantidade">Quantidade: </label>
             <select id="opcoes" name="opcoes">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>   
+         </div>    
         </form>
 
         <form>
-             <label for="pagamento">Forma de Pagamento:></label>
-             <select id="Forma de Pagamento" name="Forma de Pagamento">
-             <option value="Crédito">"Cartão de Crédito"></option>
-             <option value="Cartão de Débito">"Cartão de Débito"></option>
-             <option value="Boleto">"Boleto"></option>
-               
-            
+            <fieldset class="grupo">
+            <div class="campo">    
+             <label for="pagamento">Forma de Pagamento></label><br><br>
+              <input type="checkbox" id="pagamento" name="credito" value="Cartão de Crédito">
+                <label for="pagamento">Cartão de Crédito</label>
+                <input type="checkbox" id="pagamento" name="debito" value="Cartão de Débito">
+                <label for="pagamento">Cartão de Débito</label>
+                <input type="checkbox" id="pagamento" name="boleto" value="Boleto">
+                <label for="pagamento">Boleto</label>
+            </div>                     
                 <input type="submit">
+                
+            </fieldset>
         </form>
         
     
     <p><b>Power hair</b></p>
 
     <p>Entre em contato em caso de dúvidas.</p>
+          <fieldset class="grupo">
     <form>
          <label for="fnome"><b>Nome:</b></label><br>
-        <input type="text" id="fnome" name="fnome"><br>
+        <input type="text" id="fnome" name="fnome" required><br>
     
         <label for="femail"><b>E-mail:</b></label><br>
-        <input form="text" id="femail" name="fmail"><br>
+        <input form="text" id="femail" name="fmail" required><br>
     </form>
 
     <label for="fmensagem"><b>Mensagem:</b></label><br>
-    <textarea name="mensagem" rows="10" cols="21"></textarea>
+    <textarea name="mensagem" rows="10" cols="21" required></textarea>
     <br>
     <input type="submit">      
         </main>
+            </fieldser>
     </body>
 </html>
