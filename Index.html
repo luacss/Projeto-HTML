@@ -1,61 +1,72 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>Aquele título</title>
-        <link rel="stylesheet" href="style.css">
-        <style>
-        </style>
+        <title> CURA CALVO </title> 
+        <link href="css/style.css" type="text/css" rel="stylesheet" /> <!-- para estilizar no CSS tem que chamar no html primeiro!-->
+
     </head>
+    
     <body>
-        <header>
-            <h1>Produtos Capilares</h1>
-          	<div class="teste">
-              	<a href="">Pedidos</a> |
-              	<a href="">Conta</a> |
-              	<a href="">Carrinho</a>
-          	</div>
-        </header>
-        <nav>
-            <ul>
-                <a href=""><li>Shampoo</li></a>
-                <a href=""><li>Condicionador</li></a>
-                <a href=""><li>Máscara</li></a>
-                <a href=""><li>Modelador</li></a>
-                <a href=""><li>Coloração</li></a>
-                <a href=""><li>Creme para pentear</li></a>
-                <form>
-                    <input type="text" placeholder="Pesquisar…" name="pesquisa">
-                    <button type="submit">Ir</button>
-                </form>
-            </ul>
-        </nav>
-        <section>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis ornare ante. Donec venenatis bibendum leo sit amet congue. Mauris vestibulum sem non ligula consectetur congue. Donec eget ante vitae dui porttitor lacinia a in mi. Donec mollis nulla ut rutrum sagittis. Vivamus nunc ligula, facilisis nec nunc quis, cursus porta lorem. Maecenas ac sodales justo. Vivamus tellus tortor, mollis at tristique eu, venenatis eget lacus. Morbi a posuere eros. Phasellus maximus sit amet turpis et iaculis. Fusce suscipit felis lacus, id semper nulla semper sed. Integer tincidunt urna ut magna consectetur, volutpat malesuada lectus finibus. Nam dapibus ac nisi vel malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus a massa tellus. Praesent vel gravida augue, maximus vulputate ante.
-            </p>
-            Vivamus et condimentum nibh. Quisque euismod metus nec dui auctor, ac condimentum erat placerat. Mauris vehicula augue quis ante rhoncus, non tincidunt augue interdum. Nunc feugiat viverra nisl at facilisis. Sed ornare aliquet nisl in eleifend. Quisque ultricies arcu nisi, sed finibus mauris scelerisque ac. In consectetur, quam et dictum tempus, justo tellus pretium nibh, ac venenatis magna felis eu sem. In placerat mauris et dui sodales laoreet. Suspendisse efficitur risus sit amet eros imperdiet, non pulvinar nunc tempus. Suspendisse potenti.
-            <p>
-            Integer tempus dui sed tortor elementum blandit. Suspendisse hendrerit vel ante non bibendum. Fusce lacinia urna at nibh vehicula, placerat porta dui dapibus. Nam quis arcu ligula. Nam efficitur, quam vel consectetur sollicitudin, mauris elit commodo leo, vitae fringilla arcu neque ut felis. Nunc pretium sagittis vulputate. In nec tincidunt urna. Praesent malesuada egestas mollis. Aenean ut nunc eu ex sagittis luctus sed a ex. Proin lacus nulla, aliquet sed nisl dapibus, tempus finibus odio. Sed neque est, faucibus quis venenatis et, elementum a mi. Vestibulum mi nisl, facilisis a diam in, aliquam suscipit risus.
-            </p>
-            Etiam et mollis felis, dignissim facilisis nisl. Ut et tortor sapien. Ut ac tincidunt est, sit amet sodales arcu. Vestibulum et urna pulvinar, ullamcorper massa nec, dapibus nisl. Ut urna erat, dignissim elementum arcu nec, eleifend volutpat tortor. Donec eget ipsum ultrices enim rutrum faucibus. Maecenas volutpat felis urna, vel maximus ex finibus blandit. Nam id feugiat odio, ut efficitur justo.
-            <p>
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat. In quis elementum neque. Morbi lobortis eros tortor, sit amet lacinia ipsum laoreet at. Nullam ultricies lacinia magna, in imperdiet dui commodo quis. In et tincidunt dolor. In lectus leo, facilisis eget nisi id, euismod ultrices risus. In vel feugiat diam, eu tempus sapien. Fusce vitae nisl cursus, finibus nisl a, vulputate erat. Proin eu interdum nisi. Fusce vestibulum semper aliquam. Cras dui mi, lacinia et mattis id, bibendum at nisi. Ut a placerat nisi. Suspendisse potenti.
-            </p>
-            <hr>
-            <p>Assina o nosso newsletter para receber promoções:</p>
-            <form>
-                <label for="nome">Nome:</label>
-                <br>
-                <input type="text" id="nome" name="nome">
-                <br>
-                <label for="email">Email:</label>
-                <br>
-                <input type="text" id="email" name="email">
-                <br>
-                <br>
-                <input type="submit" value="Assinar">
-            </form>
-        </section>
+    <ul> <!-- Para fazer os menu!-->
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#">Sobre nós</a></li>
+    </ul>
+
+        <main>
+    <H1 class="titulo"> Elac </H1> <!-- Título da página, as class são usadas para chamar no css para serem estilizadas!-->
+    <H2 id="subtitulo"> A solução para calvice </H2> <!--Os id tem as mesma funções que as class (até onde eu sei), sub-título da pagina!-->
+    <p>Power Hair é o produto que revolucionou o mercado capilar</p>
+    <img src="cura calvo.jpg" width="400px" height="400px">
+    <!--Paragrafo e imagem!-->
+
+    <p><b>Power Hair - R $125,20</b></p>
+    <p> Aproveite o desconto de 30% na primeira compra</p>
+        <form> <!--Formulario da quantidade!-->
+          <div class="campo">
+            <label for="quantidade">Quantidade: </label>
+            <select id="opcoes" name="opcoes">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>  
+            </div> 
+        </form>
+        <br><br>
+        <form>
+            <fieldset class="grupo"> <!--Fieldset é utilizado para agrupar dentro do formulario, igual ao label!-->
+            <div class="campo"> <!--As formas de pagamento!-->
+                <label>Forma de Pagamento</label><br><br>
+                <input type="checkbox" id="pagamento" name="credito" value="Cartão de Crédito">
+                <label for="pagamento">Cartão de Crédito</label>
+                <input type="checkbox" id="pagamento" name="debito" value="Cartão de Débito">
+                <label for="pagamento">Cartão de Débito</label>
+                <input type="checkbox" id="pagamento" name="boleto" value="Boleto">
+                <label for="pagamento">Boleto</label>
+            </div>
+                 <input type="submit">
+
+            </fieldset>
+        </form>
+        
+    
+    <p><b>Power hair</b></p>
+<!--Formulário de contato!-->
+    <p>Entre em contato em caso de dúvidas.</p>
+    <fieldset class="grupo">
+    <form>
+         <label for="nome"><b>Nome:</b></label><br>
+        <input type="text" id="fnome" name="fnome" required><br>
+    <!--O required é usado para que esse campo seja obrigátorio!-->
+        <label for="email"><b>E-mail:</b></label><br>
+        <input form="text" id="femail" name="fmail" required><br>
+    </form>
+
+    <label for="fmensagem"><b>Mensagem:</b></label><br>
+    <textarea name="mensagem" rows="10" cols="21"></textarea>
+    <br>
+    <input type="submit" id="button">   
+        </main>
+    </fieldset>
     </body>
 </html>
