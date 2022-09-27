@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    background: lightgoldenrodyellow;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #f4f4f4;
+    width: 100%;
+    padding: 23px 0;
+    text-align: center;
+}
+header .teste {
+    margin-right: 4px;
+    float: right;
+}
+nav ul {
+    background: #c5c5c5;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    padding: 15px;
+    display: inline-block;
+}
+nav ul li:hover {
+    color: lightgoldenrodyellow;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+nav ul form {
+    float: right;
+}
+nav input[type = text] {
+    padding: 5px;
+    margin-top: 11px;
+    border: none;
+}
+nav ul form button {
+    background: #ddd;
+    margin-top: 11px;
+    margin-right: 15px;
+    padding: 5px;
+    float: right;
+    border: none;
+    cursor: pointer;
+}
+nav ul form button:hover {
+    background: #ccc;
+}
+section {
+    padding: 5px;
+}
+@media screen and (max-width: 600px) {
+    body {background: black; color: white;}
+    header {color: black;}
+    header .teste {
+        float: none;
+        text-align: center;
+    }
+    nav ul li {
+        width: 100%;
+        display: block;
+    }
+    nav ul form {
+        width: 100%;
+    }
+    nav input[type = text] {
+        width: 80%;
+        margin: 0;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-left: 0;
+        float: left;
+    }
+    nav ul form button {
+        width: 20%;
+        margin: 0;
+        padding-top: 10px;
+        padding-right: 0;
+        padding-left: 0;
+        float: left;
+    }
+}
